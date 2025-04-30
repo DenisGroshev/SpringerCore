@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/util
+           http://www.springframework.org/schema/util/spring-util.xsd">
+
+<!--    <context:component-scan base-package="evil.dalas.yandex.ru"-->
+<!--                            annotation-config="true"-->
+<!--                            resource-pattern="**/*.class"-->
+<!--                            scoped-proxy="no"-->
+<!--                            use-default-filters="true">-->
+<!--        <context:include-filter type="annotation" expression="org.springframework.stereotype.Component"/>-->
+<!--        <context:include-filter type="assignable" expression="evil.dalas.yandex.ru.database.repository.CrudRepository"/>-->
+<!--        <context:include-filter type="regex" expression="evil\..+Repository"/>-->
+<!--    </context:component-scan>-->
+
+<!--    <context:property-placeholder location="classpath:application.properties"/>-->
+<!--    <context:component-scan base-package="evil.dalas.yandex.ru" />-->
+
+
+<!--    <bean class="evil.dalas.yandex.ru.bpp.InjectBeanPostProcessor"/>-->
+<!--    <bean class="evil.dalas.yandex.ru.bpp.TransactionBeanPostProcessor"/>-->
+<!--    <bean class="evil.dalas.yandex.ru.bpp.AuditingBeanPostProcessor"/>-->
+<!--    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>-->
+
+
+
+<!--    <bean id="driver" class="java.lang.String">-->
+<!--        <constructor-arg value="${db.driver}"/>-->
+<!--    </bean>-->
+
+<!--    <bean class="evil.dalas.yandex.ru.bfpp.LogBeanFactoryPostProcessors"/>-->
+<!--    <bean class="evil.dalas.yandex.ru.bfpp.VerifyPropertyBeanFactoryPostProcessors"/>-->
+
+<!--    <bean id="pool1" name="p1,p2,p3" class="evil.dalas.yandex.ru.database.repository.Pool.ConnectionPool">-->
+<!--        <constructor-arg name="username" value="postgres"/>-->
+<!--        <constructor-arg index="1" value="18"/>-->
+<!--        <constructor-arg index="2">-->
+<!--            <list>-->
+<!--                <value>&#45;&#45;arg1=value1</value>-->
+<!--                <value>&#45;&#45;arg2=value2</value>-->
+<!--            </list>-->
+<!--        </constructor-arg>-->
+<!--        <constructor-arg index="3">-->
+<!--            <map>-->
+<!--                <entry key="url" value="postgresurl"/>-->
+<!--                <entry key="password" value="123"/>-->
+<!--                <entry key="driver" value-ref="driver"/>-->
+<!--            </map>-->
+<!--        </constructor-arg>-->
+<!--        <property name="properties">-->
+<!--            <map>-->
+<!--                <entry key="url" value="postgresurl"/>-->
+<!--                <entry key="password" value="123"/>-->
+<!--                <entry key="test" value="#{driver.length() > 10}"/>-->
+<!--                <entry key="test1" value="#{driver.length() > T(java.lang.Math).random() * 10}"/>-->
+<!--                <entry key="host" value="#{'${db.host}'.split(',')}"/>-->
+<!--                <entry key="currentUser" value="#{systemProperties['user.name']}"/>-->
+<!--            </map>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+<!--    <bean name="companyRepository" class="evil.dalas.yandex.ru.database.repository.CompanyRepository">-->
+<!--    </bean>-->
+</beans>
