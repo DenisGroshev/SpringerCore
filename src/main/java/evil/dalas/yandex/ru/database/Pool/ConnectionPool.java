@@ -1,4 +1,4 @@
-package evil.dalas.yandex.ru.database.repository.Pool;
+package evil.dalas.yandex.ru.database.Pool;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

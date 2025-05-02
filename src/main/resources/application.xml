@@ -39,7 +39,7 @@
 <!--    <bean class="evil.dalas.yandex.ru.bfpp.LogBeanFactoryPostProcessors"/>-->
 <!--    <bean class="evil.dalas.yandex.ru.bfpp.VerifyPropertyBeanFactoryPostProcessors"/>-->
 
-<!--    <bean id="pool1" name="p1,p2,p3" class="evil.dalas.yandex.ru.database.repository.Pool.ConnectionPool">-->
+<!--    <bean id="pool1" name="p1,p2,p3" class="Pool.evil.dalas.yandex.ru.database.ConnectionPool">-->
 <!--        <constructor-arg name="username" value="postgres"/>-->
 <!--        <constructor-arg index="1" value="18"/>-->
 <!--        <constructor-arg index="2">-->

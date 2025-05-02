@@ -1,0 +1,14 @@
+package evil.dalas.yandex.ru.listener.entity;
+
+import java.util.EventObject;
+
+public class EntityEvent extends EventObject {
+
+    private final AccessType accessType;
+
+    public EntityEvent(Object entity, AccessType accessType) {
+        super(entity);
+        this.accessType = accessType;
+    }
+
+}

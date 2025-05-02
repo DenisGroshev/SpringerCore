@@ -2,10 +2,9 @@ package evil.dalas.yandex.ru.config;
 
 import evil.dalas.yandex.ru.config.web.WebConfiguration;
 import evil.dalas.yandex.ru.database.repository.CrudRepository;
-import evil.dalas.yandex.ru.database.repository.Pool.ConnectionPool;
+import evil.dalas.yandex.ru.database.Pool.ConnectionPool;
 import evil.dalas.yandex.ru.database.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.*;
 import org.springframework.context.annotation.ComponentScan.Filter;
 import org.springframework.stereotype.Component;
