@@ -1,7 +1,6 @@
 package evil.dalas.yandex.ru;
 
 import evil.dalas.yandex.ru.config.ApplicationConfiguration;
-import evil.dalas.yandex.ru.database.repository.CrudRepository;
 import evil.dalas.yandex.ru.database.Pool.ConnectionPool;
 import evil.dalas.yandex.ru.database.service.CompanyService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

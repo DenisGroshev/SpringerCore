@@ -1,7 +1,6 @@
 package evil.dalas.yandex.ru.database.service;
 
 import evil.dalas.yandex.ru.database.entity.Company;
-import evil.dalas.yandex.ru.database.repository.CompanyRepository;
 import evil.dalas.yandex.ru.database.repository.CrudRepository;
 import evil.dalas.yandex.ru.dto.CompanyReadDto;
 import evil.dalas.yandex.ru.listener.entity.AccessType;
@@ -9,7 +8,6 @@ import evil.dalas.yandex.ru.listener.entity.EntityEvent;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
 
-import java.util.EventObject;
 import java.util.Optional;
 
 @Service

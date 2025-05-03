@@ -17,7 +17,7 @@
 <!--                            scoped-proxy="no"-->
 <!--                            use-default-filters="true">-->
 <!--        <context:include-filter type="annotation" expression="org.springframework.stereotype.Component"/>-->
-<!--        <context:include-filter type="assignable" expression="evil.dalas.yandex.ru.database.repository.CrudRepository"/>-->
+<!--        <context:include-filter type="assignable" expression="repository.database.evil.dalas.yandex.ru.CrudRepository"/>-->
 <!--        <context:include-filter type="regex" expression="evil\..+Repository"/>-->
 <!--    </context:component-scan>-->
 
@@ -25,9 +25,9 @@
 <!--    <context:component-scan base-package="evil.dalas.yandex.ru" />-->
 
 
-<!--    <bean class="evil.dalas.yandex.ru.bpp.InjectBeanPostProcessor"/>-->
-<!--    <bean class="evil.dalas.yandex.ru.bpp.TransactionBeanPostProcessor"/>-->
-<!--    <bean class="evil.dalas.yandex.ru.bpp.AuditingBeanPostProcessor"/>-->
+<!--    <bean class="bpp.evil.dalas.yandex.ru.InjectBeanPostProcessor"/>-->
+<!--    <bean class="bpp.evil.dalas.yandex.ru.TransactionBeanPostProcessor"/>-->
+<!--    <bean class="bpp.evil.dalas.yandex.ru.AuditingBeanPostProcessor"/>-->
 <!--    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>-->
 
 
@@ -36,8 +36,8 @@
 <!--        <constructor-arg value="${db.driver}"/>-->
 <!--    </bean>-->
 
-<!--    <bean class="evil.dalas.yandex.ru.bfpp.LogBeanFactoryPostProcessors"/>-->
-<!--    <bean class="evil.dalas.yandex.ru.bfpp.VerifyPropertyBeanFactoryPostProcessors"/>-->
+<!--    <bean class="bfpp.evil.dalas.yandex.ru.LogBeanFactoryPostProcessors"/>-->
+<!--    <bean class="bfpp.evil.dalas.yandex.ru.VerifyPropertyBeanFactoryPostProcessors"/>-->
 
 <!--    <bean id="pool1" name="p1,p2,p3" class="Pool.evil.dalas.yandex.ru.database.ConnectionPool">-->
 <!--        <constructor-arg name="username" value="postgres"/>-->
@@ -67,6 +67,6 @@
 <!--        </property>-->
 <!--    </bean>-->
 
-<!--    <bean name="companyRepository" class="evil.dalas.yandex.ru.database.repository.CompanyRepository">-->
+<!--    <bean name="companyRepository" class="repository.database.evil.dalas.yandex.ru.CompanyRepository">-->
 <!--    </bean>-->
 </beans>

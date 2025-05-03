@@ -1,10 +1,10 @@
 package evil.dalas.yandex.ru.listener.entity;
 
 
+import org.springframework.context.annotation.Conditional;
 import org.springframework.context.event.EventListener;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
-
 @Component
 public class EntityListener {
 
